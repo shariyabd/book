@@ -1,0 +1,734 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+
+
+
+
+/*==========================
+ header-section start here
+ ========================== */
+
+
+header{
+    background-color: white;
+    max-width: 100%;
+    height: 220px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 70px;
+}
+.social-icon{
+    padding-top: 15px;
+}
+.navbar .social-icon a{
+    margin: 5px;
+    padding: 13px;
+    color: white;
+    border: 1px solid brown;
+    border-radius: 50%;
+    text-align: center;
+  
+  
+}
+
+.navbar .social-icon i{
+    color: rgb(5, 0, 0) ;
+    font-size: 22px;
+    border-radius: 50%;
+}
+.navbar .social-icon a:hover{
+    background-color: brown;
+    border: 1px solid rgb(173, 173, 42);
+    transition: 0.5s all ease;
+}
+.navbar .social-icon i:hover{
+    color: rgb(173, 173, 42 );
+    transition: 0.5s all ease;
+}
+.navbar .logo{
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+}
+.logo h2{
+    color: rgb(173, 173, 42);
+    padding: 5px;
+   
+}
+.logo span{
+    color: black ;
+
+}
+.logo p{
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.search-bar{
+    padding-top: 12px;
+}
+.search-bar input{
+    padding: 5px;
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+}
+.search-bar input::placeholder{
+    text-align: center;
+    color: white;
+    font-size: 13px;
+}
+.search-bar input:hover{
+    border: 3px solid white;
+    transition: 0.3s all ease;
+}
+.search-bar input:focus{
+    background-color: white;
+    border: 4px solid white;
+    transition: 0.3s all ease;
+}
+hr{
+    opacity: 0.4;
+}
+
+/* ========================
+Header Section End Here
+========================== */
+
+
+
+
+
+
+/* ========================
+Navbar Section Start Here
+========================== */
+
+.menu-bar{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.menu-bar a{
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+    font-weight: bold;
+    position: relative;
+    letter-spacing:2px;
+}
+ .menu-bar a:before{
+   position: absolute;
+   top:30px;
+   left: 0;
+   content: '';
+   display: block;
+   width: 0;
+   height: 2px;
+   background-color: tomato;
+   transition: all 0.3s ease;
+
+}
+ .menu-bar a:hover{
+    color: tomato;
+}
+ .menu-bar a:hover:before{
+    width:100%;
+}
+.menu-bar .home{
+    color: rgb(175, 175, 26);
+} 
+
+input[type="checkbox"]{
+    display: none;
+  }
+header label i{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 25px;
+    color: rgb(175, 175, 26);
+    z-index: 9999;
+    cursor: pointer;
+    display: none !important;
+}
+/* ========================
+Navbar Section End Here
+========================== */
+
+
+
+
+
+
+
+
+/* ========================
+HOme Section Start Here
+========================== */
+
+#home{
+    width: 100%;
+    height: 730px;
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+/* #home:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+} */
+.home-banner h1{
+    text-align: center;
+  margin: 0;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 64px;
+  color: #fff;
+ 
+}
+.home-banner{
+   padding: 80px 0px 0px 0px;
+   
+}
+
+.home-content{
+    padding-top: 60px;
+}
+/* .home-content .heading{
+    width:100%;
+    display: flex;
+    justify-content: center;
+} */
+.home-content .book{
+    width:130px;
+    height:130px;
+    border:1px solid white;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    
+}
+.home-content .book i{
+    font-size: 32px;
+    color: rgb(175, 175, 26);
+    padding: 15px;
+    line-height: 1;
+}
+.home-content .book a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.home-content .book h3{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1;
+    margin: 0;
+}
+.home-content .book:hover{
+    border-radius: 3px;
+    transition: all 0.4s ease;
+    border: 1px solid rgb(175, 175, 26);
+}
+.home-content .book a:hover{
+    color: rgb(175, 175, 26);
+    text-decoration: underline;
+    transition: all 0.4s ease;
+}
+
+/* ========================
+HOme Section End Here
+========================== */
+
+
+
+
+
+
+/* ========================
+Right-Bottom-Up-Click Start Here
+========================== */
+
+.up-btn{
+
+    position: fixed;
+    top: 93%;
+    left: 90%;
+    z-index: 999;
+    cursor: pointer;
+    animation-name: shuvo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.up-btn a{
+    color: rgb(175, 175, 26);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+@keyframes shuvo {
+    0%{
+        top: 95%;
+        bottom: 10px;
+        right: 0;
+    }
+    50%{
+        top: 90%;
+        bottom: 30px;
+        right: 0;
+
+    }
+    100%{
+        top: 95%;
+        bottom: 40px;
+        right: 0;
+
+    }
+}
+/* ========================
+Right-Bottom-Up-Click Start Here
+========================== */
+
+
+
+
+/* ========================
+Home Section End Here
+========================== */
+
+
+
+
+
+
+
+/* ========================
+About Section Start Here
+========================== */
+
+
+#about{
+    margin: 80px 0px;
+    padding: 30px 0px;
+}
+.about-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.about-section .info-sec{
+    width: 40%;
+
+}
+.about-section .info-sec h1{
+    padding: 20px 20px ;
+}
+.about-section .info-sec p{
+    padding: 20px;
+    line-height: 20px;
+    text-align: justify;
+}
+.img-sec{
+    width: 50%;
+}
+.img-sec img{
+    padding-left: 20px;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.book-dwon{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+.book-dwon .left-item h1{
+    font-size: 40px;
+    color: rgb(175, 175, 26);
+}
+.book-dwon .left-item span{
+    text-align: center;
+    padding-left: 8px;
+}
+
+
+/* ========================
+About Section Start Here
+========================== */
+
+
+
+
+
+
+
+
+
+/* ========================
+Most Selling Section Start Here
+========================== */
+
+#top-seller{
+    margin-top: 10px;
+    padding: 20px 40px;
+}
+#top-seller .head{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+.content-part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+/* .content-part .book-name h2{
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    margin: 0 auto;
+} */
+.book-name #book1{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+}
+.book-name #book2{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+}
+.book-name #book3{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+}
+.content-part .book-name{
+    width: 300px;
+    height:auto;
+    background-color: rgb(175, 175, 26);
+    box-shadow: 1px 3px 6px black;
+    padding: 30px 0px;
+    margin-top: 10px;
+    overflow: hidden;
+
+}
+.content-part .book-name:hover{
+    box-shadow: 1px 3px 8px black;
+    border-radius: 5px;
+    transform: scale(1.1);
+    transition: all 0.6s ease;
+}
+
+
+/* ========================
+Most Sellign Section End Here
+========================== */
+
+
+
+
+
+
+
+/* ========================
+Testimonial Section Start Here
+========================== */
+
+
+
+#testimonial{
+    margin: 80px 0px;
+    padding: 30px 0px;
+}
+#testimonial .head{
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+.content-part .author-name{
+    width: 300px;
+    height:150px;
+    background-color: pink;
+    box-shadow: 1px 3px 6px black;
+    padding: 30px 0px;
+    margin: 10px;
+    border-radius: 15px;
+
+}
+.content-part .author-name:hover{
+    transition: all 0.4s ease;
+    border: 3px solid rgb(175, 175, 26);
+    background-color: rgb(219, 163, 173);
+}
+.content-part .author-name p{
+    padding: 10px;
+    text-align: justify;
+}
+.content-part img{
+   
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.content-part {
+    position: relative;
+}
+.content-part h1{
+    color: gray;
+    padding: 10px;
+    position: absolute;
+    top: 200px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+/* ========================
+Testimonial Section End Here
+========================== */
+
+
+
+
+
+
+
+/* ========================
+Reliease Section Start Here
+========================== */
+
+#reliease{
+    margin: 80px 0px;
+    padding: 30px 0px;
+    background-color: black;
+    padding: 30px 50px;
+    width: 100%;
+    height: auto;
+    color: white;
+
+}
+#reliease .heading-part{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#reliease .heading-part h5{
+    padding: 15px;
+}
+.reliese-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.reliese-content .left-items{
+    width: 200px;
+    height: 300px;
+}
+.reliese-content .left-items p:first-child{
+    background-color: rgb(175, 175, 26);
+}
+.reliese-content .middle-item{
+    width: 370px;
+    height: 400px;
+}
+.middle-item h2{
+    font-size: 22px;
+}
+.reliese-content .middle-item h2,p{
+    padding: 5px;
+}
+.middle-item p{
+    line-height: 1.5;
+    text-align: justify;
+  
+}
+.left-items p{
+    border-right: 2px solid rgb(175, 175, 26);
+    padding: 10px;
+    width: 200px;
+}
+
+#reliease .reliese-content .right-item img{
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* ========================
+Reliease Section End Here
+========================== */
+
+
+
+
+
+
+
+
+/* ========================
+Contact Section Start Here
+========================== */
+
+#contact{
+    margin: 80px 0px;
+    padding: 30px 0px;
+     max-width: 100%;
+}
+.contact-head{
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.map img{
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+}
+
+
+#contact-second{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px;
+    padding: 30px 0px;
+    flex-wrap: wrap;
+}
+
+.contact-left{
+    padding: 15px;
+}
+.contact-left h4,p{
+    padding: 5px;
+}
+.right-form{
+     max-width: 700px;
+    height:auto;
+    padding: 20px;
+  
+   
+}
+.right-form input{
+    width: 300px;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid pink;
+}
+.right-form form{
+    position: relative;
+}
+.right-form .subject{
+    width: 615px;
+}
+.right-form textarea{
+    width: 615px;
+    border: 1px solid pink;
+    border-radius: 6px;
+    margin: 5px;
+}
+.right-form button{
+    padding: 10px;
+    background-color: rgb(175, 175, 26);
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 106%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.right-form button:hover{
+    outline: 2px solid rgb(175, 175, 26);
+    border-radius: 25px;
+    transition: 0.9s all ease;
+    background-color: white;
+}
+
+
+
+/* ========================
+Contact Section End Here
+========================== */
+
+
+
+
+
+
+
+/* ========================
+Footer Section Start Here
+========================== */
+
+footer{
+    max-width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+    
+}
+.footer-item{
+    padding:20px 0px;
+}
+footer p{
+    padding: 5px;
+}
+footer p:last-child{
+    font-size: 15px;
+}
+
+/* ========================
+Footer Section Start Here
+========================== */

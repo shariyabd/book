@@ -1,0 +1,415 @@
+
+
+
+
+
+@media screen and (max-width:590px) {
+
+
+/*==========================
+ header-section start here
+ ========================== */
+
+
+    .social-icon{
+        padding-top: 10px;
+        padding-bottom: 15px;
+    }
+    .navbar .social-icon a{
+        margin: 3px;
+        padding: 10px;
+        color: white;
+        border: 1px solid brown;
+        border-radius: 50%;
+        text-align: center;
+        width: 20px;
+        height: 20px;
+      
+      
+    }
+    
+    .navbar .logo{
+    display: block;
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+.logo h2{
+    color: rgb(173, 173, 42);
+    padding: 5px;
+   
+}
+.logo span{
+    color: black ;
+
+}
+.logo p{
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+
+/*==========================
+ header-section End here
+ ========================== */
+
+
+
+
+ /* ========================
+HOme Section Start Here
+========================== */
+
+.home-banner h1{
+    text-align: center;
+  margin: 0;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 64px;
+  color: #fff;
+ 
+}
+
+/* ========================
+HOme Section End Here
+========================== */
+
+
+
+/* ========================
+About Section Start Here
+========================== */
+
+
+.img-sec{
+    width: 100%;
+}
+.img-sec img{
+    padding-left: 20px;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-section .info-sec p:last-child{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    line-height: 20px;
+    text-align: justify;
+}
+.about-section .info-sec{
+    width: 100%;
+
+}
+
+/* ========================
+HOme Section End Here
+========================== */
+}
+@media screen and (max-width:1000px) {
+
+
+    /* ========================
+    Testimonial Section Start Here
+    ========================== */
+
+    #testimonial{
+    margin: 80px 0px;
+    padding: 30px 0px;
+}
+#testimonial .head{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.content-part .author-name{
+    width: 300px;
+    height:150px;
+    background-color: pink;
+    box-shadow: 1px 3px 6px black;
+    padding: 30px 0px;
+    margin: 10px;
+    border-radius: 15px;
+    margin-bottom: 70px;
+
+}
+#author-last{
+    
+}
+.content-part .author-name:hover{
+    transition: all 0.4s ease;
+    border: 3px solid rgb(175, 175, 26);
+    background-color: rgb(219, 163, 173);
+}
+.content-part .author-name p{
+    padding: 10px;
+    text-align: justify;
+}
+.content-part .author-name{
+    position: relative;
+}
+.content-part img{
+   
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.content-part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content-part h1{
+    color: gray;
+    padding: 10px;
+    position: absolute;
+    top: 150px;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+/* ========================
+Testimonial Section End Here
+========================== */
+
+}
+
+@media screen and (min-width:715px) {
+
+    /* ========================
+    Most Selling Section Start Here
+    ========================== */
+
+
+    .content-part .book-name{
+        margin: 20px;
+    }
+   
+
+     /* ========================
+    Most Selling Section End Here
+    ========================== */
+    
+}
+@media screen and (max-width:710px) {
+
+      /* ========================
+    Reliease Section Start Here
+    ========================== */
+
+
+
+    #reliease .heading-part{
+        text-align: center;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+
+      /* ========================
+    Reliease Section Start Here
+    ========================== */
+
+
+
+
+        /* ========================
+        Contact Section Start Here
+        ========================== */
+
+
+    #contact-second{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 80px 0px;
+        padding: 30px 0px;
+        flex-wrap: wrap;
+    }
+  
+    #contact-second{
+        display: flex;
+        justify-content: center;
+        margin: 80px 0px;
+        padding: 30px 0px;
+        flex-wrap: wrap;
+    }
+    
+    .contact-left{
+        padding: 15px;
+    }
+    .contact-left h4,p{
+        padding: 5px;
+    }
+    .right-form{
+        max-width: 700px;
+        height:auto;
+        padding: 40px;
+       
+      
+       
+    }
+    .right-form input{
+        width: 180px;
+        border-radius: 6px;
+        padding: 10px;
+        margin: 5px;
+        border: 1px solid pink;
+    }
+    .right-form form{
+        position: relative;
+    }
+    .right-form .subject{
+        width: 375px;
+    }
+    .right-form textarea{
+        width: 375px;
+        border: 1px solid pink;
+        border-radius: 6px;
+        margin: 5px;
+    }
+    .right-form button{
+        width: 200px;
+        height: 40px;
+        font-size: 15px;
+        
+    }
+
+  /* ========================
+   Contact Section End Here
+    ========================== */
+
+
+
+
+
+      /* ========================
+    Right-bottom-Click-Up Start
+    ========================== */
+
+
+    .up-btn{
+
+        position: fixed;
+        top: 92%;
+        left: 88%;
+        z-index: 999;
+        cursor: pointer;
+       
+    }
+    .up-btn a{
+        
+
+        font-size: 14px;
+      
+    
+    }
+    
+
+
+
+       /* ========================
+    Right-bottom-Click-Up Start End
+    ========================== */
+
+
+
+   
+    footer p:last-child{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:900px) {
+
+       /* ========================
+    navbar section start
+    ========================== */
+
+
+    .menubar{
+        display:none;
+    }
+
+       /* ========================
+    Navbar section end
+    ========================== */
+   
+}
+@media screen and (max-width:835px) {
+
+       /* ========================
+        Respinsive Mobile menubar Start here
+        ========================== */
+
+
+  
+    .menu-bar {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        text-align: center;
+        width: 100%;
+        height: 60vh;
+        background-color: black;
+        display: block;
+        transition: all 0.5s ease;
+        display: block;
+        z-index: 999;
+        
+    }
+    #click:checked ~ label i:before{
+        content: "\f00d";
+      }
+
+    #click:checked ~ .menu-bar{
+       left: 0;
+       
+    }
+   
+    .menu-bar a{
+        margin: 15px 0px;
+        font-size: 17px;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+    header label i{
+        display: block !important;
+    }
+
+
+       /* ========================
+        Responsive Menu Bar end here
+        ========================== */
+
+
+    .home-banner{
+       margin-left: 30px;
+    }
+
+
+
+       /* ========================
+        Most Selling Book Section  Start
+        ========================== */
+
+
+    .content-part .book-name:hover{
+        box-shadow: 1px 5px 10px black;
+        border-radius: 5px;
+        transform: scale(1);
+        transition: all 0.6s ease;
+    }
+
+
+       /* ========================
+        Most Selling Book Section End
+        ========================== */
+}
